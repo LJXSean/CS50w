@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Search</title>
+    <link rel="stylesheet" href="app.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <a class="navbar-item" href="index.html">Google Search</a>
+    </nav>
+
+    <p class="title">Advanced Search</p>
+    <div class="line"></div>
+
+    <form class="adv-container" action="https://google.com/search">
+      <p>Find pages with...</p>
+      <div>
+        <span class="adv-label">all these words:</span
+        ><input type="text" name="as_q" class="textbar" />
+      </div>
+      <div>
+        <span class="adv-label">this exact word or phrase:</span
+        ><input type="text" name="as_epq" class="textbar" />
+      </div>
+      <div>
+        <span class="adv-label">any of these words:</span
+        ><input type="text" name="as_oq" class="textbar" />
+      </div>
+      <div>
+        <span class="adv-label">none of these words:</span
+        ><input type="text" name="as_eq" class="textbar" />
+      </div>
+      <div class="asdf">
+        <span class="adv-label"></span>
+        <div class="btn-ctn">
+          <input id="CIGjus" name="tbs" type="hidden" />
+          <input class="adv-btn" type="submit" value="Advanced Search" />
+        </div>
+      </div>
+    </form>
+  </body>
+</html>
